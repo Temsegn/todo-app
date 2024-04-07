@@ -1,0 +1,136 @@
+body{
+
+    background-color:black;
+    /* background-image: url(/image/VideoCapture_20230814-161520.jpg); */
+    background-size: 100% 100%;
+    margin: 2% 10% 0 10%;
+    background-attachment: fixed;
+}
+
+ .todo-input
+ {
+     background-color: wheat;
+     color: rgb(105, 12, 17);
+     padding:6px ;
+     padding-left: 20px;
+     border-radius: 5px;
+     font-family:cursive;
+     font-weight: bold;
+     font-size: 20px;
+     width: 30%;
+     margin:2% 1% 10% 20% ;
+     box-shadow: 5px 5px 5px rgb(53, 52, 52);
+
+ }
+  .date-input
+    {
+      background-color: wheat;
+      color: rgb(105, 12, 17);
+      padding:4px ;
+      padding-left: 20px;
+      border-radius: 5px;
+      font-family:cursive;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 5px 5px 5px rgb(56, 55, 55);
+
+    }
+.date-output
+  {
+     color: white;
+  }
+ .add-button
+ {
+    border-radius: 10px;
+    background-color: green;
+    font-family: cursive;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 10px;
+ }
+
+ .delete_button
+   { 
+    position: relative;
+     top: -40px;
+      margin:-200px 0px 0px  600px;
+      padding: 8px 20px;
+      color: white;
+      background-color:rgb(240, 10, 10);
+      font-size: 20px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px black;
+      font-weight: bolder;
+
+   }
+  .output
+   {
+     height: 50px;
+     border-style: none;
+     color: white;
+     font-size: 30px;
+     font-family: cursive;
+     font-weight: bold;
+     padding-left: 15px;
+     margin-left: 22%;
+     margin-right: 20px;
+
+
+   }
+   .todo-outpu
+     {
+      background-color:transparent;
+      box-shadow: 5px 5px 5px black;
+        color: rgb(228, 107, 9);
+        margin-right: 40px;
+
+     }
+   .date-outpu
+     {
+      box-shadow: 5px 5px 5px black;
+      margin-right: 30px;
+      background-color:transparent;
+
+      color: rgb(252, 248, 248);
+     }
+   .todo-output
+     {
+         display: inline-block;
+     }
+    .list-style
+     {
+      width: 30px;
+      background-color: rgb(197, 57, 57);
+      color: white;
+     }
+   .top-title
+     {
+       font-weight: bolder;
+       font-size: 100px;
+       font-family: sans-serif;
+       color: rgb(246, 246, 250);
+       margin-bottom:60px ;
+       background-color: rgb(27, 23, 23);
+       box-shadow: 5px 5px 5px rgb(230, 219, 219);
+       padding-left: 20%;
+       text-shadow: 5px 5px 5px rgb(97, 92, 92);
+       
+     }
+    .sub-title
+     {
+        font-size: 50px;
+        margin:0  0 10% 20% ;
+        /* text-shadow: 1px 1px 1px rgb(168, 162, 162); */
+
+     }
+
+     .no-plan
+       {
+           color: rgb(241, 43, 13);
+           font-family: cursive;
+           padding-left: 100px;
+       }
